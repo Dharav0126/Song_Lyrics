@@ -1,0 +1,136 @@
+body{
+    margin: 0% 0%;
+    padding: 0% 0%;
+    background-color: #0e0e0e;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    text-align: center;
+}
+
+p{
+    color: #f8f8f8;
+    margin: 0%;
+}
+
+h1{
+    color: #f8f8f8;
+    font-size: 6em;
+    padding-left: 1em;
+}
+
+img:nth-child(1){
+    width: 10em;
+}
+
+.bits{
+    width: 78em;
+    height: 20em;
+}
+
+.main_para{
+    font-size: 3em;
+    background-image: url(../Img/Main_para_back.jpeg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+
+.main_para:hover{
+    font-size: 4em;
+    cursor: cell;
+    font-family: 'Lobster', cursive;
+}
+
+section{
+    background-image: url(../Img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 35em;
+    width: auto;
+}
+
+.first_para, .second_para{
+    font-size: 2.5em;
+    background-color: rgba(60%, 135%, 370%, 5%);
+    font-family: 'Dancing Script', cursive;
+}
+
+.Older_para, .Oneday_para{
+    font-size: 2.5em;
+    font-family: 'Pacifico', cursive;
+}
+
+.firstline{
+    padding-top: 1.5em;
+}
+
+.lastline{
+    padding-bottom: 1em;
+}
+
+.middleline{
+    padding: 0em 1em;
+}
+
+.End_para{
+    background-image: url(../Img/End_para.jpeg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 20em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.The_end{
+    background-image: url(../Img/End.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 20em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+}
+
+.Last_end{
+    background-image: url(../Img/Last_para.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: contain;
+    background-position: center;
+    height: 20em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Hey{
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.OOOH{
+    padding-top: 1em;
+    font-size: 1.8em;
+}
